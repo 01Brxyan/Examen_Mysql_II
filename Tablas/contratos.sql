@@ -9,3 +9,6 @@ CREATE TABLE contratos (
     FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
     FOREIGN KEY (id_propiedad) REFERENCES propiedades(id_propiedad)
 );
+
+INSERT INTO contratos(fecha_inicio,fecha_fin,tipo_contrato,id_cliente,id_propiedad)
+VALUES('2026-03-01','2027-03-01','Arriendo',1,1);

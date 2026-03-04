@@ -6,3 +6,6 @@ CREATE TABLE historial_propiedades (
     fecha_cambio DATETIME,
     FOREIGN KEY (id_propiedad) REFERENCES propiedades(id_propiedad)
 );
+
+INSERT INTO historial(descripcion)
+VALUES('Contrato creado correctamente');

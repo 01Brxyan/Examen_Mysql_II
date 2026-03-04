@@ -6,3 +6,6 @@ CREATE TABLE pagos (
     estado_pago VARCHAR(50),
     FOREIGN KEY (id_contrato) REFERENCES contratos(id_contrato)
 );
+
+INSERT INTO pagos(fecha_pago,monto,id_contrato)
+VALUES('2026-03-02',1200000,1);

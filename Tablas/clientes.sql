@@ -4,3 +4,6 @@ CREATE TABLE clientes (
     telefono VARCHAR(20),
     email VARCHAR(100)
 );
+
+INSERT INTO clientes(nombre,telefono,email)
+VALUES('Maria Lopez','3001112222','maria@mail.com');
