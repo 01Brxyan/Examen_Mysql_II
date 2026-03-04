@@ -3,6 +3,3 @@ CREATE TABLE reportes_mensuales (
     fecha_reporte DATE,
     contratos_pendientes INT
 );
-
-INSERT INTO reportes(tipo_reporte,fecha_generacion)
-VALUES('Reporte mensual de ventas','2026-03-03');

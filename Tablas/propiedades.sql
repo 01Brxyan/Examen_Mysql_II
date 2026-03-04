@@ -8,6 +8,3 @@ CREATE TABLE propiedades (
     FOREIGN KEY (id_tipo) REFERENCES tipos_propiedad(id_tipo),
     FOREIGN KEY (id_agente) REFERENCES agentes(id_agente)
 );
-
-INSERT INTO propiedades(tipo,direccion,precio,estado,id_agente)
-VALUES('Apartamento','Calle 10 #20-30',250000000,'Disponible',1);
